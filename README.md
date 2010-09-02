@@ -22,11 +22,15 @@ Parse Markdown syntax into HTML
 
     var html = md("**markdown** string");
 
-Allow only specified HTML tags to be used (attributes wont be changed)
+Allow only [default set](http://github.com/andris9/node-markdown/blob/master/lib/markdown.js#L38) of HTML tags to be used
+
+    var html = md("**markdown** string", true);
+
+Allow only specified HTML tags to be used (default set of allowed attributes is used)
 
     var html = md("**markdown** string", true, "p|strong|span");
 
-Allow only specified HTML tags and specified attributes
+Allow specified HTML tags and specified attributes
 
     var html = md("**markdown** string", true, "p|strong|span", {
         "a":"href",        // 'href' for links
