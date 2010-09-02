@@ -3,11 +3,19 @@ node-markdown
 
 node-markdown is based on [Showdown parser](http://attacklab.net/showdown/) and meant to parse [Markdown](http://daringfireball.net/projects/markdown/) syntax into HTML code.
 
+Installation
+------------
+
+Use `npm` package manager
+
+    npm install node-makrdown
+
+
 Usage
 -----
 
     var md_text = "**bold** *italic* [link](http://www.neti.ee) `code block`",
-        md_parser = require("../lib/markdown.js").Markdown;
+        md_parser = require("node-markdown").Markdown;
 
     // simple
     console.log(md_parser(md_text));
