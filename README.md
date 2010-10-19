@@ -10,7 +10,6 @@ Use `npm` package manager
 
     npm install node-markdown
 
-
 Usage
 -----
 
