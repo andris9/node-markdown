@@ -1,3 +1,8 @@
+DEPRECATION NOTICE!
+===================
+
+This project is deprecated in favor of [chjj/marked](https://github.com/chjj/marked). I never created the parser myself, the module was created in the early days of node as a wrapper for an existing browser based parser [Showdown](http://attacklab.net/showdown/) so if you are using this module and have problems with the parsing logic, I can't help you much as I'm not familiar with the inner details.
+
 node-markdown
 =============
 
